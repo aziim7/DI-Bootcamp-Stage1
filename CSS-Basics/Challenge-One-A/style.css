@@ -1,0 +1,48 @@
+body{
+    background-color: blanchedalmond;
+    
+    
+}
+
+#wrap{
+    width:800px;
+    background-color: blanchedalmond;
+    border:10px dotted black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    border-bottom: 10px dotted black;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', 'Konkhmer Sleokchher', sans-serif;
+}
+
+.description{
+    font-family: 'Share Tech Mono', sans-serif;
+    margin: 20px;
+
+}
+
+
+li{
+    list-style-type:none;
+    text-align: center;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+li:first-letter{
+    font-size: 24px;
+} 
+
+.copyright{
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+}
