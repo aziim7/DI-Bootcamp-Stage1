@@ -1,0 +1,55 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+body{
+    height:50vh;
+    background: white;
+    display:flex;
+    flex-direction: column;   
+}
+
+
+/* header{
+    background-color:yellow ;
+    padding: 2em 0 2em 0;
+
+} */
+
+.main{
+   
+    display:flex;
+    flex: 1;
+   
+}
+
+
+.left{
+    background: pink;
+    color:pink;
+    border: 2px solid black;
+    
+    
+}
+
+
+.right{
+    background: #7887AB;
+    color:#7887AB;
+    width:200px;
+   
+    border: 2px solid black;
+    
+}
+
+footer{
+    background-color: beige;
+    padding: 1em 0 1em 0;
+    width:255px;
+    color:beige;
+    border: 2px solid black;
+    display:flex;
+    
+}
