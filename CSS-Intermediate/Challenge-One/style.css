@@ -1,0 +1,57 @@
+body{
+    background-color: #2E4172;
+}
+
+/* Main wrapper for the layout */
+#wrap {
+    width: calc(100% - 40px); /* Full width minus 20px for the margins */
+    overflow: hidden; /* Clear floats */
+    margin: 0 20px; /* 10px margin on both sides */
+    ;
+}
+
+/* Left side (25%) */
+#nav {
+    float: left; /* Float left to the left side */
+    width: 25%; /* Take up 25% of the width */
+    background-color: #7986AC; /* Just for visualization */
+    height:406px;
+    text-align: center;
+}
+
+/* Center the text in the ul */
+#nav ul {
+    text-align: left; /* Reset text alignment to left */
+    display: inline-block; /* Make the ul inline-block to center it */
+}
+
+/* Right side (75%) */
+#content {
+    float: right; /* Float right to the right side */
+    width: 75%; /* Take up 75% of the width */
+    
+    background-color: #4F608F; /* Just for visualization */
+    align-content: center;
+    text-align: center;
+}
+
+#content ul{
+
+    list-style-type: none; /* Remove the default bullet points */
+}
+
+/* Clearfix for #wrap */
+#wrap::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Copyright text */
+.copyright {
+    clear: both; /* Clear both floats */
+    text-align: center; /* Center the text */
+  
+    padding: 5px 0; /* Add some padding */
+    width: 100%; /* Full width */
+}
